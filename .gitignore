@@ -1,2 +1,3 @@
 *.code-workspace
 *.csv
+/node_modules/

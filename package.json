@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.2"
+  },
+  "scripts": {
+    "start": "node index"
+  }
+}
