@@ -7,7 +7,7 @@ const fumbleValue = 96
 const filePath = await input({ message: 'CSVのパス :' })
 const inputtedData = await fs.readFile(filePath, 'utf8')
 
-const diceList = inputtedData.split('\n').map(i => {
+const diceList = inputtedData.trim().split('\n').map(i => {
 	const splitted = i.split(',')
 	return {
 		user: splitted[0],
